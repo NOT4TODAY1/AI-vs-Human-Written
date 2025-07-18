@@ -1,0 +1,30 @@
+cd "C:\Users\LOQ\Desktop\Summer Internship"
+.\venv310\Scripts\activate
+
+
+///////////////////
+
+
+In terminal:
+python app.py
+Open http://127.0.0.1:5000 
+
+
+awel code html :
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI vs Human Text Detector</title>
+</head>
+<body>
+    <h1>AI vs Human Text Detector</h1>
+    <form method="POST">
+        <textarea name="text" rows="10" cols="50" placeholder="Paste your text here..."></textarea><br>
+        <input type="submit" value="Check Text">
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>
