@@ -9,7 +9,7 @@ idna==3.10
 kaggle==1.7.4.5
 kiwisolver==1.4.5
 matplotlib==3.8.4
-numpy>=1.22,<1.25
+numpy>=1.26.0
 packaging==25.0
 pandas==2.2.2
 pillow==10.3.0
